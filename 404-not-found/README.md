@@ -18,7 +18,6 @@
 
 ## Overview
 
-Featured screenshot of my work. 
 <a href="https://ibb.co/c2wGjCv">
     <img src="https://i.ibb.co/F8XSF0W/404-not-found-screencapture.png" alt="404-not-found-screencapture" border="0">
 </a>
