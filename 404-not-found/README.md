@@ -19,6 +19,8 @@
 ## Overview
 
 Featured screenshot of my work. 
-<img src="https://ibb.co/c2wGjCv">
+<a href="https://ibb.co/c2wGjCv">
+    <img src="https://i.ibb.co/F8XSF0W/404-not-found-screencapture.png" alt="404-not-found-screencapture" border="0">
+</a>
 
 This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/wBunSb7FPrIepJZAg0sY) was to build an application to complete the given user stories.
