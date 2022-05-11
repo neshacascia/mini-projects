@@ -86,3 +86,43 @@ footer {
     color: #BDBDBD;
     font-weight: bold;
 }
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+    section,
+    div.main {
+        margin: 0;
+    }
+
+    section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    div.main {
+        flex-direction: column;
+    }
+
+    .main img {
+        width: 100%;
+        margin: 40px 0;
+    }
+
+    .text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+
+    h1 {
+        max-width: 300px;
+        font-size: 40px;
+        line-height: 70px;
+    }
+
+    .text p {
+        font-size: 16px;
+    }
+
+}
