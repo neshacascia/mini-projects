@@ -3,7 +3,7 @@ This mini project is from Codecademy's Flexbox Off-Platform Project: Tea Cozy.
 
 They provided a design spec and image assets to create a fictional tea shop website. I added my own little details.
 
-<embed src="https://media.giphy.com/media/JUKGGnuhMj5RpYq4MX/giphy.gif">
+![alt tag] https://media.giphy.com/media/JUKGGnuhMj5RpYq4MX/giphy.gif
 
 ## How It's Made:
 
