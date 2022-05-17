@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #171717;
+}
+
+.pages {
+    margin: 0 40px;
+}
+
+.nav-bar a,
+h2,
+h3,
+h4,
+h5,
+p,
+span,
+figcaption {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+
+/* Nav Styles */
+.nav-bar {
+    height: 69px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid seashell;
+    margin-bottom: 20px;
+}
+
+.nav-bar img {
+    height: 40px;
+    margin-left: 10px;
+}
+
+ul {
+    display: flex;
+    margin-right: 10px;
+}
+
+.nav-bar li {
+    list-style: none;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    padding: 0 10px;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+}
+
+.nav-bar a:visited {
+    color: rgb(159, 113, 53);
+}
+
+.nav-bar a:hover {
+    color: blanchedalmond;
+}
+/* Mission Styles */
+#mission {
+    background-image: url("Assets/mission-background.webp");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mission-text {
+    background: #171717b8;
+    text-align: center;
+    width: 100%;
+    padding: 10px 0;
+}
+
+/* Featured Tea Styles */
+#featured-tea {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.featured-tea-text {
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.featured-tea-text h4 {
+    margin-bottom: 12px;
+}
+
+.featured-tea-img {
+    display: flex;
+    width: 1000px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.featured-tea-img img {
+    height: 200px;
+    width: 300px;
+    padding: 5px 15px;
+}
+
+figcaption {
+    text-align: center;
+    font-weight: 300;
+    padding: 10px 0;
+}
+
+/* Locations Styles */
+#locations {
+    background-image: url(Assets/locations-background.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.locations-grid {
+    display: flex;
+    margin-top: 15px;
+}
+
+.box {
+    background: #171717b8; 
+    width: 250px;
+    height: 250px;
+    margin: 0 40px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.box > * {
+    margin: 15px 0;
+}
+
+.box h3 {
+    font-weight: 500;
+}
+
+.box p {
+    font-weight: 300;
+}
+
+/* Footer Styles */
+.footer {
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h5,
+.footer span,
+.footer p {
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    
+}
