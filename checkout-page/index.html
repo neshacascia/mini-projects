@@ -14,99 +14,106 @@
         <h1>Checkout</h1>
     </div>
 
-    <section>
-        <div class="contact-info">
-            <h2>Contact information</h2>
-            <label for="email">Email</label>
-            <input type="email" name="email" value="Enter your email..." required>
-
-            <label for="phone">Phone</label>
-            <input type="tel" name="phone" value="Enter your phone..." required>
-        </div>
-
-        <div class="shipping">
-            <h2>Shipping address</h2>
-            <label for="name">Full name</label>
-            <input type="text" name="name" value="John Doe" required>
-
-            <label for="address">Address</label>
-            <input type="text" name="address" value="Your address..." required>
-
-            <label for="city">City</label>
-            <input type="text" name="city" value="Your city..." required>
-
-            <div class="address-container">
-                <label for="country">Country</label>
-                <select name="country" id="country">
-                    <option value="Canada">Canada</option>
-                    <option value="USA">USA</option>
-                    <option value="Mexico">Mexico</option>
-                </select>
-
-                <label for="postal-code">Postal code</label>
-                <input type="text" name="postal-code" value="Your postal code..." required>
+    <div class="container">
+        <section>
+            <div class="contact-info">
+                <h2>Contact information</h2>
+                <label for="email">Email</label>
+                <input type="email" name="email" placeholder="Enter your email..." required>
+    
+                <label for="phone">Phone</label>
+                <input type="tel" name="phone" placeholder="Enter your phone..." required>
             </div>
-
-            <div class="save-user-info">
-                <input type="checkbox" name="save-info">
-                <label for="save-info">Save this information for next time</label>
-            </div>
-        </div>
-
-        <input type="button" value="Continue">
-    </section>
-   
-    <aside>
-        <div class="cart">
-            <div class="row">
-                <img src="Assets/photo1.png" alt="Vintage backbag">
-                <div class="cart-text">
-                    <h4>Vintage Backbag</h3>
-
-                    <div class="item-price">
-                        <span class="discount">$54.99</span>
-                        <span>$94.99</span>
+    
+            <div class="shipping-info">
+                <h2>Shipping address</h2>
+                <label for="name">Full name</label>
+                <input type="text" name="name" placeholder="John Doe" required>
+    
+                <label for="address">Address</label>
+                <input type="text" name="address" placeholder="Your address..." required>
+    
+                <label for="city">City</label>
+                <input type="text" name="city" placeholder="Your city..." required>
+    
+                <div class="address-container">
+                    <div class="country">
+                        <label for="country">Country</label>
+                            <select name="country" id="country">
+                                <option value="Canada">Canada</option>
+                                <option value="USA">USA</option>
+                                <option value="Mexico">Mexico</option>
+                            </select>
                     </div>
+                        
+                    <div class="postal-code">
+                        <label for="postal-code">Postal code</label>
+                    <input type="text" name="postal-code" placeholder="Your postal code..." required>
+                    </div>
+                    
+                </div>
+    
+                <div class="save-user-info">
+                    <input type="checkbox" name="save-info">
+                    <label for="save-info">Save this information for next time</label>
+                </div>
+            </div>
+    
+            <input type="button" value="Continue">
+        </section>
 
-                    <div class="quantity-container">
-                        <input type="button" value="-">
-                        <span class="quantity">1</span>
-                        <input type="button" value="+">
+        <aside>
+            <div class="cart">
+                <div class="row row-1">
+                    <img src="Assets/photo1.png" alt="Vintage backbag">
+                    <div class="cart-text">
+                        <h4>Vintage Backbag</h3>
+    
+                        <div class="item-price">
+                            <span class="discount">$54.99</span>
+                            <span class="reg-price">$94.99</span>
+                        </div>
+    
+                        <div class="quantity-container">
+                            <button>-</button>
+                            <span class="quantity">1</span>
+                            <button>+</button>
+                        </div>
                     </div>
                 </div>
 
-                <div class="row">
+                <div class="row row-2">
                     <img src="Assets/photo2.png" alt="Shoes">
                     <div class="cart-text">
                         <h4>Levi Shoes</h3>
     
                         <div class="item-price">
                             <span class="discount">$74.99</span>
-                            <span>$124.99</span>
+                            <span class="reg-price">$124.99</span>
                         </div>
     
                         <div class="quantity-container">
-                            <input type="button" value="-">
+                            <button>-</button>
                             <span class="quantity">1</span>
-                            <input type="button" value="+">
+                            <button>+</button>
                         </div>
                     </div>
                 </div>
-            </div>
-
-            <div class="cart-total">
-                <div class="total-container">
-                    <h3>Shipping</h3>
-                    <span>$19</span>
+    
+                <div class="cart-total">
+                    <div class="total-container">
+                        <h3>Shipping</h3>
+                        <span>$19</span>
+                    </div>
+    
+                    <div class="total-container">
+                        <h3>Total</h3>
+                        <span>$148.98</span>
+                    </div>
                 </div>
-
-                <div class="total-container">
-                    <h3>Total</h3>
-                    <span>$148.98</span>
-                </div>
             </div>
-        </div>
-    </aside>
+        </aside>
+    </div>
 
     <footer>
         <div class="footer">
