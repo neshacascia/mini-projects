@@ -1,7 +1,8 @@
 # Checkout Page
-This mini project is from <a href="http://devchallenges.io" target="_blank">devChallenges</a>
+This mini project is from <a href="http://devchallenges.io" target="_blank">devChallenges</a>. They provided a Figma design file to help practice web development skills.
 
-They provided 2 images: one displaying the complete website and the other shared some details regarding the fonts and colours used. Since the website had some dummy images and being the major One Piece fan I am, I had to add my own lil twist!
+<br />
+<br />
 
 <a href="https://ibb.co/TKrS8pX"><img src="https://i.ibb.co/mvSwq1s/checkout-page.png" alt="checkout-page" border="0"></a><br /><a target='_blank' href='https://usefulwebtool.com/'></a><br />
 
@@ -9,4 +10,4 @@ They provided 2 images: one displaying the complete website and the other shared
 
 **Tech used:** HTML & CSS
 
-Goal was to focus on using CSS Flexbox.
+My goal was to focus on building this layout with CSS Flexbox.
