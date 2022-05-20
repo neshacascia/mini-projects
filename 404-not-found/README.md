@@ -1,25 +1,17 @@
-# 404-not-found
+# 404 Not Found
+This mini project is from <a href="http://devchallenges.io" target="_blank">devChallenges</a>. They provided a Figma design file to help practice web development skills.
 
-<h1 align="center">404 NOT FOUND</h1>
-
-<div align="center">
-   Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
-</div>
-
-<div align="center">
-  <h3>
-    <a href="https://devchallenges.io/challenges/wBunSb7FPrIepJZAg0sY">
-      Challenge
-    </a>
-  </h3>
-</div>
-
-<!-- OVERVIEW -->
-
-## Overview
+<br />
+<br />
 
 <a href="https://ibb.co/c2wGjCv">
     <img src="https://i.ibb.co/F8XSF0W/404-not-found-screencapture.png" alt="404-not-found-screencapture" border="0">
 </a>
 
-This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/wBunSb7FPrIepJZAg0sY) was to build an application to complete the given user stories.
+## How It's Made:
+
+**Tech used:** HTML & CSS
+
+My goal was to focus on building this layout with CSS Flexbox.
+
+
