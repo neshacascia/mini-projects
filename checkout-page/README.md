@@ -1,21 +1,13 @@
-<!-- Please update value in the {}  -->
+# Checkout Page
+This mini project is from <a href="http://devchallenges.io" target="_blank">devChallenges</a>. They provided a Figma design file to help practice web development skills.
 
-<h1 align="center">CHECKOUT PAGE</h1>
+<br />
+<br />
 
-<div align="center">
-   Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
-</div>
+<a href="https://ibb.co/TKrS8pX"><img src="https://i.ibb.co/mvSwq1s/checkout-page.png" alt="checkout-page" border="0"></a><br /><a target='_blank' href='https://usefulwebtool.com/'></a><br />
 
-<div align="center">
-  <h3>
-    <a href="https://devchallenges.io/challenges/0J1NxxGhOUYVqihwegfO">
-      Challenge
-    </a>
-  </h3>
-</div>
+## How It's Made:
 
-## Overview
+**Tech used:** HTML & CSS
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
-
-This component was created as a submission to [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/wBunSb7FPrIepJZAg0sY) was to build an application to complete the given user stories.
+My goal was to focus on building this layout with CSS Flexbox.
